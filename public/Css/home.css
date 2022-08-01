@@ -1,0 +1,59 @@
+.widgets {
+    margin-top: 100px;
+    display: flex;
+}
+.item {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+
+.icon {
+    color: white;
+    font-size: 50px;
+}
+
+.itemDetail {
+    /* align-self: flex-end; */
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.icons {
+    background-color: rgb(37, 158, 37);
+    padding: 10px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    /* margin-right: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background-color: green;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.value {
+    text-align: right;
+    font-size: 28px;
+}
+
+.appointments {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.appointment {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    height: fit-content;
+}
